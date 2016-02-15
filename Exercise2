@@ -1,0 +1,24 @@
+<html>
+
+    <head>
+        <script type = "text/javascript"
+                src = "PrevImage.js">
+        </script>
+        <script type = "text/javascript"
+                src = "NextImage.js">
+        </script>
+    </head>
+
+    <body>
+    
+        <img src = "file1.jpg" id="slideshow" name = "image1" width = "500" height = "500">    
+        
+        <br><br>
+        
+        <button type = "button" onClick = "prevImage()">Previous</button>
+        <button type = "button" onClick = "nextImage()">Next</button>
+        
+        
+    </body>
+    
+</html>
