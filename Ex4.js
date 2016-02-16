@@ -14,9 +14,8 @@ function changeColor() {
   var borderRGB = "#" + borderR.value + borderG.value + borderB.value;
   var backRGB = "#" + backR.value + backG.value + backB.value;
   var width = borderWidth.value;
-
-  paragraph.style.borderColor = "red";//borderRGB;
-  paragraph.style.borderWidth = "thick";
+  
+  paragraph.style.border = width + " solid " + borderRGB;
   paragraph.style.backgroundColor = backRGB;
 
 }
