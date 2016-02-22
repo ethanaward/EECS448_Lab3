@@ -1,0 +1,30 @@
+<html>
+
+    <head>
+        <title>Exercise 2</title>
+    </head>
+
+    <body>
+
+      <script type = "text/javascript"
+              src = "PrevImage">
+      </script>
+      <script type = "text/javascript"
+              src = "NextImage">
+      </script>
+
+
+        <img src = "file1.jpg" id="slideshow" name = "image1" width = "500" height = "500">
+
+        <br><br>
+
+        <button type = "button" onClick = "prevImage()">Previous</button>
+        <button type = "button" onClick = "nextImage()">Next</button>
+	<br><br>
+
+	<a href = "http://people.eecs.ku.edu/~eward/index.html">Back to main page</a>
+
+
+    </body>
+
+</html>

@@ -1,0 +1,44 @@
+div 
+{
+    font-family: times;
+  
+}
+div.title
+{
+	text-align: center;
+	font-size: 24pt;
+}
+
+div.subtitle
+{
+	font-size: 18pt;
+	padding: 0px 0px 10px 30px;
+}
+
+div.normal
+{
+	font-size: 14pt;
+	padding: 0px 30px 0px 30px;
+}
+
+div.contact
+{
+	float: right;
+	text-align: right;
+}
+
+a 
+{
+    color: #599043;
+	padding: 10px 30px 10px 30px;    
+}
+
+a:hover
+{
+    color: #436790;
+}
+
+body 
+{
+	background-color: #b1cfc9;
+}

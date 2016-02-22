@@ -1,0 +1,27 @@
+<html>
+
+    <head>
+      <title>Exercise 1</title>
+    </head>
+
+    <body>
+	<script type = "text/javascript"
+		src = "Ex1">
+	</script>
+
+
+        <form>
+            Enter password:
+            <input type="text" id="initial" name="test"><br>
+
+            Reenter password:
+            <input type="text" id="validate"><br>
+         </form>
+         <button type = "button" onClick="password()">Validate</button>
+	<br><br>
+
+	<a href = "http://people.eecs.ku.edu/~eward/index.html">Back to main page</a>
+
+    </body>
+
+</html>
