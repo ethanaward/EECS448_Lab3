@@ -1,0 +1,36 @@
+function nextImage() {
+
+    
+        var image = document.getElementById("slideshow");
+
+        if(image.name == "image1") {
+
+            image.src = "file2.jpg";
+            image.name = "image2";
+        }
+    
+        else if(image.name == "image2") {
+    
+            image.src = "file3.jpg";
+            image.name = "image3";
+        }
+    
+        else if(image.name == "image3") {
+
+            image.src = "file4.jpg";
+            image.name = "image4";
+        }
+    
+        else if(image.name == "image4") {
+    
+            image.src = "file5.jpg";
+            image.name = "image5";
+        }
+        
+        else if(image.name == "image5") {
+    
+            image.src = "file1.jpg";
+            image.name = "image1";
+        }
+
+}
